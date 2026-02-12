@@ -2,17 +2,17 @@ class SchemaGen < Formula
   desc "Automatically generate validation schemas from TypeScript class definitions"
   homepage "https://github.com/Naviary-Sanctuary/schema-gen"
   license "MIT"
-  version "0.2.4"
+  version "0.3.0"
 
   on_macos do
-    url "https://github.com/Naviary-Sanctuary/schema-gen/releases/download/v0.2.4/schema-gen-macos-arm64"
-    sha256 "a74665c461d42eb45ae25447137911f90de75cba881670084cfb224294757250"
+    url "https://github.com/Naviary-Sanctuary/schema-gen/releases/download/v0.3.0/schema-gen-macos-arm64"
+    sha256 "4fc673861e8ab8c55fa91e8bfe96954e6512bd10edd3a7871479f1bf8f28b8c5"
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/Naviary-Sanctuary/schema-gen/releases/download/v0.2.4/schema-gen-linux-x64"
-      sha256 "fba99083ea189920e04674a0404aab4049935c1cc9cd5612b96359d19fa4cce7"
+      url "https://github.com/Naviary-Sanctuary/schema-gen/releases/download/v0.3.0/schema-gen-linux-x64"
+      sha256 "f9fbab8f48deda860cb6d6075d143587677cfaabd85a1a059f20a0cc34078772"
     end
   end
 
